@@ -1,7 +1,7 @@
 'use strict';
 
 var reversi = require('../');
-var assert = require('assert');
+var assert = require('power-assert');
 
 describe('reversi', function () {
 
