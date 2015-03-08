@@ -9,12 +9,13 @@
 'use strict';
 
 var reversi = require('../');
-reversi.init(null, function(err, data){
+reversi.init(4, function(err, data){
   data.turns;// []
   data.matrix;// [ {"col": "a", "row": "1", "state": "empty"},
               //  {"col": "b", "row": "1", "state": "empty"}, ... ]
 });
-reversi.set({"turns": [{"col": "b", "row": "1", "state": "black"}], "matrix": []}, function(err, data){
+// matrix, turns, function
+reversi([], [{"col": "b", "row": "1", "state": "black"}], function(err, data){
   data.turns;
   data.matrix;
 });
