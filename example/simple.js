@@ -1,0 +1,13 @@
+/*
+ * reversi
+ * https://github.com/sanemat/reversi
+ *
+ * Copyright (c) 2015 sanemat
+ * Licensed under the MIT license.
+ */
+
+'use strict';
+
+var reversi = require('../');
+
+console.log(reversi()); // "awesome"
