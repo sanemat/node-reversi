@@ -1,12 +1,12 @@
 'use strict';
 
 var reversi = require('../');
-var assert = require('should');
+var assert = require('assert');
 
 describe('reversi', function () {
 
   it('should be awesome', function () {
-    reversi().should.equal('awesome');
+    assert(reversi() == 'awesome');
   });
 
 });
